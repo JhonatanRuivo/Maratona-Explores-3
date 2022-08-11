@@ -1,0 +1,81 @@
+/*  GLOBAL  */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(255, 237, 213, 1);
+  font-family: 'Roboto', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+/*  FONTS */
+h1, h2, h3, .price {
+  font-family: 'Roboto serif', serif;
+  color: #2D2C2A;
+} 
+
+/*  HEADER  */
+header {
+  padding: 32px 0;
+  text-align: center;
+}
+
+section, header {
+
+  max-width: 300px;
+  margin: auto;
+}
+header h1 {
+  text-transform: uppercase;
+  margin-bottom: 4px;
+  font-size: 28px;
+}
+header h1 span {
+  color: rgba(153, 80, 0, 1) ;
+}
+header p {
+  font-size: 14px;
+  line-height: 16px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/*  SECTIONS  */ 
+section {
+  margin-bottom: 24px;
+}
+
+section h2 {
+  background-color: rgba(254, 215, 170, 1);
+  text-align: center;
+  padding: 8px 16px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  font-size: 18px;
+}
+
+/*  LISTAS  */
+ul li {
+  margin-bottom: 16px;
+  display: flex;
+}
+
+li .details {
+  width: 240px;
+}
+
+li .details h3 {
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.details p {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 14px;
+  line-height: 21px;
+}
